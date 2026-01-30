@@ -215,6 +215,47 @@ int main() {
 
    mosse++;
 
+if(  a == b  &&  a == c ) { 
+							printf("il giocatore %c ha vinto", giocatore);
+                                
+                              } else {
+                                  if(  d == e &&  d == f ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                  } else { 
+                                     if(  g == h &&  g == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                     } else { 
+                                          if(  a == e &&  a == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                          } else { 
+                                               if(  c == e &&  c == g ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                               } else { 
+                                                    if(  a == d &&  a == g ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                                    } else { 
+                                                         if(  b == e &&  b == h ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                                         } else { 
+                                                              if(  c == f &&  c == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                                              } else { 
+         }
+
       if(giocatore=='X') giocatore='O';
       else giocatore='X';
 
@@ -256,6 +297,47 @@ int main() {
 
    mosse++;
 
+if(  a == b  &&  a == c ) { 
+							printf("il giocatore %c ha vinto", giocatore);
+                                
+                              } else {
+                                  if(  d == e &&  d == f ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                  } else { 
+                                     if(  g == h &&  g == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                     } else { 
+                                          if(  a == e &&  a == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                          } else { 
+                                               if(  c == e &&  c == g ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                               } else { 
+                                                    if(  a == d &&  a == g ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                                    } else { 
+                                                         if(  b == e &&  b == h ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                                         } else { 
+                                                              if(  c == f &&  c == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                                              } else { 
+           }
+
       if(giocatore=='X') giocatore='O';
       else giocatore='X';
 
@@ -295,6 +377,47 @@ int main() {
 
    mosse++;
 
+if(  a == b  &&  a == c ) { 
+							printf("il giocatore %c ha vinto", giocatore);
+                                
+                              } else {
+                                  if(  d == e &&  d == f ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                  } else { 
+                                     if(  g == h &&  g == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                     } else { 
+                                          if(  a == e &&  a == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                          } else { 
+                                               if(  c == e &&  c == g ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                               } else { 
+                                                    if(  a == d &&  a == g ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                                    } else { 
+                                                         if(  b == e &&  b == h ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                                         } else { 
+                                                              if(  c == f &&  c == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                                              } else { 
+                                                                }
+
       if(giocatore=='X') giocatore='O';
       else giocatore='X';
 
@@ -333,6 +456,46 @@ int main() {
         }
 
    mosse++;
+if(  a == b  &&  a == c ) { 
+							printf("il giocatore %c ha vinto", giocatore);
+                                
+                              } else {
+                                  if(  d == e &&  d == f ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                  } else { 
+                                     if(  g == h &&  g == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                     } else { 
+                                          if(  a == e &&  a == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                          } else { 
+                                               if(  c == e &&  c == g ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                               } else { 
+                                                    if(  a == d &&  a == g ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                                    } else { 
+                                                         if(  b == e &&  b == h ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                                         } else { 
+                                                              if(  c == f &&  c == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
+
+                                
+                                                              } else { 
+                 }
 
       if(giocatore=='X') giocatore='O';
       else giocatore='X';                 
@@ -375,43 +538,48 @@ int main() {
 
    mosse++;
 
-      if(giocatore=='X') giocatore='O';
-      else giocatore='X';                   
-
-                              if(  a == b  &&  a == c ) {  //condizioni di vittoria, manca controllare il giocatore precedente per capire chi ha vintot
-
+if(  a == b  &&  a == c ) { 
+							printf("il giocatore %c ha vinto", giocatore);
                                 
                               } else {
                                   if(  d == e &&  d == f ) {
+							printf("il giocatore %c ha vinto", giocatore);
 
                                 
                                   } else { 
                                      if(  g == h &&  g == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
 
                                 
                                      } else { 
                                           if(  a == e &&  a == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
 
                                 
                                           } else { 
                                                if(  c == e &&  c == g ) {
+							printf("il giocatore %c ha vinto", giocatore);
 
                                 
                                                } else { 
                                                     if(  a == d &&  a == g ) {
+							printf("il giocatore %c ha vinto", giocatore);
 
                                 
                                                     } else { 
                                                          if(  b == e &&  b == h ) {
+							printf("il giocatore %c ha vinto", giocatore);
 
                                 
                                                          } else { 
                                                               if(  c == f &&  c == i ) {
+							printf("il giocatore %c ha vinto", giocatore);
 
                                 
                                                               } else { 
                                                                 printf("la partita è finita con un pareggio");
                  }
+
 
                             
                 } // PARENTESI FINALE!!!
