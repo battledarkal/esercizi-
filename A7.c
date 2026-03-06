@@ -26,10 +26,12 @@ printf("Bravino"); }
  else {
 printf("Brutto");
  }
-    }}
-
-
+    }
+    return 0;
 }
+
+
+
 
     return 0;
 
