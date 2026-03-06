@@ -21,7 +21,7 @@ do {
     if(tent <= 3) {
         printf("Aura");
     } else {
-if(tent >= 4 && tent <= 10) {
+if(tent >= 4 && tent < 10) {
 printf("Bravino"); }
  else {
 printf("Brutto");
