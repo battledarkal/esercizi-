@@ -2,16 +2,18 @@
 
 int main() {
 
-int numero, conta = 1;
+int numero;
 
-printf("Inserisci un numero: ");
-    scanf("%d", &numero);
+do {
+        printf("Inserisci un numero: ");
+        scanf("%d", &numero);
+            if(numero <= 1) {
+                printf("hai inserito un numero troppo piccolo");
+            }
+    
+}
 
-for(conta <= numero; conta++) {
-        if(conta != 1 && conta != numero) {
-            printf("%d ", conta);
-        }
-    }
-
-    return 0;
+    while(numero <= 1);
+    for(int i = 2; i < numero; i++)
+        printf("%d\n", i);
 }
