@@ -11,11 +11,14 @@ int main() {
 	}
 
 	for(int i = 0; i < 10; i++) {
-		voti[array[i]-6]++;
+		if(voti[i] >= 6 && voti[i] < 10) {
+			voti[array[i]-6]++;
+		}
 	}
 
-
-	printf("hai preso 6 %d volte, 7 %d volte, 8 %d volte, 9 %d volte e 10 %d volte", voti[0],voti[1],voti[2],voti[3],voti[4]);
+	for(int i = 0; i < 5; i++) {
+		printf("hai preso %d %d volte\n", array[i], i+6);
+	}
 	return 0;
 }
 
