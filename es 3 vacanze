@@ -1,0 +1,29 @@
+#include <stdio.h>
+#define DIM 8
+
+
+int main()
+{
+
+	int array[DIM], i, j, conta[DIM];
+
+	for(int i = 0; i < DIM; i++) {
+		printf("Inserisci il numero: ");
+		scanf("%d", &array[i]);
+		conta[i] = 0;
+	}
+
+	for(int i = 0; i < DIM; i++) {
+		for(int j = 2; j < array[i]; j++) {
+			if((array[i] % j) == 0) {
+				conta[i]++;
+			}
+		}
+	}
+
+	for(int i = 0; i < DIM; i++) {
+		if(conta[i] == 0 && array[i] >=2) printf("Il numero %d è primo\n", array[i]);
+	}
+
+	return 0;
+}
