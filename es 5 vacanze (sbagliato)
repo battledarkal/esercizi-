@@ -1,0 +1,33 @@
+#include <stdio.h>
+#define DIM 5
+
+int main()
+{
+
+	int array1[DIM], i = 0, j = 0, a = 0, array2[DIM], arrayfuso[DIM * 2];
+
+	for(int i = 0; i < DIM; i++) {
+		printf("Inserisci il numero per il primo array: ");
+		scanf("%d", &array1[i]);
+		printf("Inserisci il numero per il secondo array: ");
+		scanf("%d", &array2[i]);
+	}
+
+	i = 0;
+
+	while(i < DIM %% j < DIM) {
+		if(array1[i] < array2[j]) {
+			arrayfuso[a] = array1[i];
+			i++
+		} else {
+			arrayfuso[a] = array2[j];
+			j++
+		}
+		a++;
+	}
+
+	for(i = 0; i < DIM * 2; i++) {
+		printf("%d\t", arrayfuso[i]);
+	}
+	return 0;
+}
