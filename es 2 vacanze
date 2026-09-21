@@ -1,0 +1,26 @@
+#include <stdio.h>
+#define DIM 10
+
+
+int main()
+{
+
+	int array[DIM], i, j, conta, numero;
+
+	for(int i = 0; i < DIM; i++) {
+		printf("Inserisci il numero: ");
+		scanf("%d", &array[i]);
+	}
+
+	for(int i = 0; i < DIM; i++) {
+		conta = 0;
+		for(int j = 0; j < DIM; j++) {
+			if(array[i] == array[j]) conta++;
+		}
+		if(conta == 1) {
+		printf("Il numero %d compare una sola volta\n", array[i]);
+		}
+	}
+  
+	return 0;
+}
