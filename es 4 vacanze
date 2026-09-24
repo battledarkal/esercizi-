@@ -1,0 +1,20 @@
+#include <stdio.h>
+#definde DIM 10
+
+int main() {
+  int array[DIM], conta;
+    for(int i = 0; i < DIM, i++){
+    printf("Inserici il numero in posizione %d", i+1);
+    scanf("%d", &array[I]);
+  }
+    
+  for(int i = 0; i < DIM, i++){
+    conta = 0;
+    for(int j = 0, j < i, i++){
+      if(array[i] == array[j]) conta++;
+      }
+  if(conta == 0) printf("%d", array[i]);
+  }
+
+return 0;
+}
