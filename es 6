@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+#define DIM 10
+
+int main () {
+    srand(time(NULL));
+
+    int array[DIM]
+ 
+    for(int i = 0; i < DIM; i++) {
+    array[i] = rand() % 10;
+    }
+
+    for(int num = 0; 0 < DIM; num++) {
+    int conta = 0;
+      for(int i = o; i <DIM; i++) {
+        if(num == array[i]) conta++;
+      }
+      if(conta == 0) printf("Il numero %d non è presente nell'array\n", num);
+    }
+
+    return 0;
+    }
