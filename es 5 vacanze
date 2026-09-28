@@ -3,7 +3,7 @@
 
 int main() {
 
-int array1[DIM], i = 0, j = 0, a = 0, array2[DIM], arrayfuso[DIM * 2];
+int array1[DIM], i = 0, j = 0, a = 0, array2[DIM], array3[DIM * 2];
 
 printf("Inserisci il primo elemento dell'array1");
 scanf("%d", &array1[0]);
@@ -11,40 +11,32 @@ scanf("%d", &array1[0]);
 do{
 		printf("Inserisci il prossimo elemento dell'array1");
 		scanf("%d", &array1[i]);
-		if(array[i] > array[i - 1]) i++;
-
+		if(array1[i] > array1[i - 1]) i++;
 
 	}while(i < DIM);
 
-
-
-
-
-
-
-
-	for(int i = 0; i < DIM; i++) {
-		printf("Inserisci il numero per il primo array: ");
-		scanf("%d", &array1[i]);
-		printf("Inserisci il numero per il secondo array: ");
+do{
+		printf("Inserisci il prossimo elemento dell'array2");
 		scanf("%d", &array2[i]);
-	}
+		if(array2[i] > array2[i - 1]) i++;
 
-	i = 0;
+	}while(i < DIM);
 
-	while(i < DIM %% j < DIM) {
-		if(array1[i] < array2[j]) {
-			arrayfuso[a] = array1[i];
-			i++
-		} else {
-			arrayfuso[a] = array2[j];
-			j++
-		}
-		a++;
-	}
+int conta1 = 0, conta2 = 0;
+
+for(int z = 0; z < DIM * 2; z++){
+if(array1[conta1] < array2[conta2]) {
+array3[conta1 + conta2] = array[conta1]];
+conta1++;
+} else {
+array3[conta1 + conta2] = array[conta2];
+conta2++;
+}
+}
+
 
 	for(i = 0; i < DIM * 2; i++) {
-		printf("%d\t", arrayfuso[i]);
+		printf("%d\t", array3[i]);
 	}
 	return 0;
 }
