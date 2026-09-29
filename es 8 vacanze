@@ -4,24 +4,21 @@
 #define DIM 18
 
 int main(){
-
 srand(time(NULL));
 
 	int array[DIM], i, j, conta;
-
-	for(i = 0; i < DIM; i++) {
+	
         do {
             array[i] = rand() % 90 + 1;
             conta = 0;
-            for(j = 0; j < i; j++) {
-                if(array[i] == array[j]) {
-                    conta = 1;
-                }
-            }
-        } while(uguale == 1);
-        
-        printf("%d\t", array[i]);
-    }
-    
-	return 0;
+            	for(j = 0; j < i; j++) {
+               		if(array[i] == array[j]) conta ++;
+             	}
+			if(conta == 0) {
+				printf("%d", array[i]);
+				i++;
+				}
+			}while(i < 18);
+	
+return 0;
 }
