@@ -15,7 +15,7 @@ int main() {
 	}
 
 	for(int i = 0; i < DIM; i++) {
-		for(int j = i + i; j < i; j++) {
+		for(int j = i + 1; j < DIM; j++) {
 			if(array[i] + array[j] == 10) {
 			    printf("(%d,%d)", array[i], array[j]);
 		           conta++;
