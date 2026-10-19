@@ -1,0 +1,13 @@
+#include <stdio.h>
+int secondi(int a, int b, int c);
+
+int main(void) {
+    int tempo = secondi(6, 25, 50);
+    printf("Il tempo in secondi è: %d", tempo);
+    return 0;
+}
+
+int secondi(int a, int b, int c){ 
+    a = (a * 3600) + (b * 60) + c;
+    return a;
+}
