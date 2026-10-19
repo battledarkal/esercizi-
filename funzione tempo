@@ -2,12 +2,28 @@
 int secondi(int a, int b, int c);
 
 int main(void) {
-    int tempo = secondi(6, 25, 50);
-    printf("Il tempo in secondi è: %d", tempo);
-    return 0;
+    int a1, b1, c1, a2, b2, c2;
+    printf("Inserisci il primo orario in ore:minuti:secondi:  ");
+    scanf("%d", a1&);
+    scanf("%d", b1&);
+    scanf("%d", c1&);
+    printf("Inserisci il secondo orario in ore:minuti:secondi:  ");
+    scanf("%d", a2&);
+    scanf("%d", b2&);
+    scanf("%d", c2&);
+    int somma1 = secondi(a1, b1, c1);
+    int somma2 = secondi(a2, b2, c2);
+    if(somma1 > somma 2){
+        printf("Il primo orario è maggiore del secondo");
+    } else if {
+        printf("Il secondo orario è maggiore del primo");
+    } else {
+        printf("I due orari sono uguali");
+    }
+return 0;
 }
 
-int secondi(int a, int b, int c){ 
-    a = (a * 3600) + (b * 60) + c;
-    return a;
+int secondi(int a, int b, int c) { 
+    int somma = (a * 3600) + (b * 60) + c;
+    return somma;
 }
